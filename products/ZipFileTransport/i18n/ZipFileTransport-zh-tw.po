@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-09-15 01:19-0700\n"
+"Last-Translator: Chenyong(Jessie) Zhu <jessie0587@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: zh-tw\n"
+"Language-Name: Traditional Chinese\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: ZipFileTransport\n"
+
+#. Default: "Import"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "Import"
+msgstr "導入"
+
+#. Default: "This form will import content from files contained in a.zip file, and will either create new objects, or overwrite objects that contain the same original filename and path. You must have editing rights for objects in order for them to be updated."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "description_import_file"
+msgstr "此表將從zip文件中導入內容，或者創建一個新對象，或者覆蓋同名的文件。要想為它們更新，您必須具備編輯此對象的權限。"
+
+#. Default: "Add the relevant details of the file to be added in the form below, select the file with the 'Browse' button, and press 'Import'."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "description_import_file1"
+msgstr "要想在下列表格中添加相關內容，請點擊“瀏覽”按鈕，然後點擊“導入”。"
+
+#. Default: "Import Content"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "heading_ImportContent"
+msgstr "導入內容"
+
+#. Default: "A description which will be given to each file in the ZIP Archive."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help__import_description"
+msgstr "在zip文件夾中每個文件中都添加的說明"
+
+#. Default: "Select the ZIP archive file to be uploaded by clicking the 'Browse' button."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help__zip_file"
+msgstr "點擊“瀏覽”按鈕，選擇欲上傳的zip文件。"
+
+#. Default: "Check this box to overwrite existing files with the same name."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help_overwrite"
+msgstr "點擊此欄將覆蓋已存在的同名文件"
+
+#. Default: "Zip File"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "label__zip_file"
+msgstr "ZIP文件"
+
+#. Default: "Overwrite"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "label_overwrite"
+msgstr "覆蓋"
+

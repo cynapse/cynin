@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZipFileTransport-ja \n"
+"POT-Creation-Date: 2007-10-02 15:34-0600\n"
+"PO-Revision-Date: 2007-10-02 15:35-0600\n"
+"Last-Translator: Haruo Takemura <h-tak@ga2.so-net.ne.jp>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: ja\n"
+"Language-Name: Japanese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: ZipFileTransport\n"
+
+#. Default: "Import"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "Import"
+msgstr "インポート"
+
+#. Default: "This form will import content from files contained in a.zip file, and will either create new objects, or overwrite objects that contain the same original filename and path. You must have editing rights for objects in order for them to be updated."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "description_import_file"
+msgstr "このフォームでzip形式のファイルの含まれているコンテンツをインポートすることができ、新しいオブジェクトとしてこれらを作成するか、同じファイル名とパスを持つ既存のオブジェクトを置き換えることが出来ます。オブジェクトを更新するには変更可能な許可をあなたが持っている必要があります。"
+
+#. Default: "Add the relevant details of the file to be added in the form below, select the file with the 'Browse' button, and press 'Import'."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "description_import_file1"
+msgstr "以下のフォームに、追加されるファイルに関する情報を入力します。参照ボタンを押してファイルを選択し、インポートボタンを押します。"
+
+#. Default: "Import Content"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "heading_ImportContent"
+msgstr "コンテンツのインポート"
+
+#. Default: "A description which will be given to each file in the ZIP Archive."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help__import_description"
+msgstr "ZIPアーカイブ内のそれぞれのフィルに与えられる説明文"
+
+#. Default: "Select the ZIP archive file to be uploaded by clicking the 'Browse' button."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help__zip_file"
+msgstr "参照ボタンを押して、アップロードするZIPアーカイブを選択します。"
+
+#. Default: "Check this box to overwrite existing files with the same name."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help_overwrite"
+msgstr "同じ名前を持つ既存のファイルを新しいファイルで置き換えるには、このチェックボックスを選択します。"
+
+#. Default: "Zip File"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "label__zip_file"
+msgstr "ZIPファイル"
+
+#. Default: "Overwrite"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "label_overwrite"
+msgstr "上書き"
+

@@ -1,0 +1,67 @@
+# Translation Master Template for ZipFileTransport
+# David Ray <davidray@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: ZipFileTransport 1.0\n"
+"POT-Creation-Date: 2006-08-28 21:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: ZipFileTransport\n"
+
+#: ZipFileTransport/skins/ZipFileTransport/checkid.py:98
+msgid ""
+msgstr ""
+
+#. Default: "Import"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "Import"
+msgstr ""
+
+#. Default: "This form will import content from files contained in a.zip file, and will either create new objects, or overwrite objects that contain the same original filename and path. You must have editing rights for objects in order for them to be updated."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "description_import_file"
+msgstr ""
+
+#. Default: "Add the relevant details of the file to be added in the form below, select the file with the 'Browse' button, and press 'Import'."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "description_import_file1"
+msgstr ""
+
+#. Default: "Import Content"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "heading_ImportContent"
+msgstr ""
+
+#. Default: "A description which will be given to each file in the ZIP Archive."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help__import_description"
+msgstr ""
+
+#. Default: "Select the ZIP archive file to be uploaded by clicking the 'Browse' button."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help__zip_file"
+msgstr ""
+
+#. Default: "Check this box to overwrite existing files with the same name."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help_overwrite"
+msgstr ""
+
+#. Default: "Zip File"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "label__zip_file"
+msgstr ""
+
+#. Default: "Overwrite"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "label_overwrite"
+msgstr ""
+

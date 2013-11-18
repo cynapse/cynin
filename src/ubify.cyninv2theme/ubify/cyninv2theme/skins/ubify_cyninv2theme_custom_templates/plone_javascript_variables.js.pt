@@ -1,0 +1,51 @@
+<tal:block define="_dummy python:request.response.setHeader('content-type','text/javascript;;charset=utf-8');" />
+<metal:block i18n:domain="cynin"
+    tal:define="portal_props context/portal_properties/site_properties;
+    cyninmf python:modules['ubify.cyninv2theme'].getCyninMessageFactory();
+    varshowlabel python:cyninmf(u'lbl_show_filters',u'Show Filters');
+    varhidelabel python:cyninmf(u'lbl_hide_filters',u'Hide Filters');
+    var_smessage_success python:cyninmf(u'lbl_smessage_success',u'Your status has been set successfully.');
+    var_smessage_error python:cyninmf(u'lbl_smessage_error',u'Unable to set your status.Please try again later.');
+    var_discussion_success python:cyninmf(u'discussion_add_success',u'New discussion added. Click %link to view it.');
+    var_discussion_empty python:cyninmf(u'no_discussion_message',u'Please enter discussion text.');
+    var_discussion_title_empty python:cyninmf(u'no_discussion_title_message',u'Please enter discussion title.');
+    var_discussion_error python:cyninmf(u'discussion_add_error',u'Unable to add discussion. Please try again later.');
+    var_rating_error python:cyninmf(u'rating_error',u'Unable to set your rating. Please try again later.');
+    var_more_msg python:cyninmf(u'more_msg',u'more ...');
+    var_less_msg python:cyninmf(u'less_msg',u'... less');
+    var_text_form_modified_message python:cyninmf(u'text_form_modified_message',u'Your form has not been saved. All changes you have made will be lost.');
+    var_text_form_resubmit_message python:cyninmf(u'text_form_resubmit_message',u'You already clicked the submit button. Do you really want to submit this form again?');
+    var_dt_range python:cyninmf(u'lbl_daterange',u'Click to select date range');
+    var_info python:cyninmf(u'Info',u'Info');
+    var_error python:cyninmf(u'Error',u'Error');
+    var_logout_title python:cyninmf(u'Log out',u'Log out');
+    ">
+// Global Plone variables that need to be accessible to the Javascripts
+var portal_url = '<tal:block replace="context/portal_url" />';
+var isauthenticated = <tal:block tal:define="isauthenticated python: modules['ubify.cyninv2theme'].checkHasPermission('Set own password', here)" tal:replace="python: str(isauthenticated).lower()" />;
+var form_modified_message = '<tal:block tal:replace="python: context.translate(var_text_form_modified_message, escape_for_js=True)" />';
+var form_resubmit_message = '<tal:block tal:replace="python: context.translate(var_text_form_resubmit_message, escape_for_js=True)" />';
+
+// the following are flags for mark_special_links.js
+// links get the target="_blank" attribute
+var external_links_open_new_window = '<tal:block replace="portal_props/external_links_open_new_window" />';
+
+// Filter panel
+var showfilterlabel = '<tal:block tal:replace="python: context.translate(varshowlabel)" />';
+var hidefilterlabel = '<tal:block tal:replace="python: context.translate(varhidelabel)" />';
+var smessagesuccess = '<tal:block tal:replace="python: context.translate(var_smessage_success)" />';
+var smessageerror = '<tal:block tal:replace="python: context.translate(var_smessage_error)" />';
+var discussionsuccess = '<tal:block tal:replace="python: context.translate(var_discussion_success)" />';
+var discussionempty = '<tal:block tal:replace="python: context.translate(var_discussion_empty)" />';
+var discussiontitleempty = '<tal:block tal:replace="python: context.translate(var_discussion_title_empty)" />';
+var discussionerror = '<tal:block tal:replace="python: context.translate(var_discussion_error)" />';
+var lbldash = '<tal:block tal:replace="structure string:&mdash;" />';
+var ratingerror = '<tal:block tal:replace="python: context.translate(var_rating_error)" />';
+var more_trunc_msg = '<tal:block tal:replace="python: context.translate(var_more_msg)" />';
+var less_trunc_msg = '<tal:block tal:replace="python: context.translate(var_less_msg)" />';
+var fpdaterangetitle = '<tal:block tal:replace="python: context.translate(var_dt_range)" />';
+var portalmessage_info = '<tal:block tal:replace="python: context.translate(var_info)" />';
+var portalmessage_error = '<tal:block tal:replace="python: context.translate(var_error)" />';
+var logoutpopup_title = '<tal:block tal:replace="python: context.translate(var_logout_title)" />';
+
+</metal:block>

@@ -1,0 +1,291 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2006-08-23 10:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: cynin\n"
+
+#. Default: "Blog Entry"
+msgid "Blog Entry"
+msgstr ""
+
+#. Default: "Blog Post"
+msgid "Blog Post"
+msgstr ""
+
+#. Default: "Show Filters"
+msgid "lbl_show_filters"
+msgstr ""
+
+#. Default: "Hide Filters"
+msgid "lbl_hide_filters"
+msgstr ""
+
+#. Default: "more ..."
+msgid "more_msg"
+msgstr ""
+
+#. Default: "... less"
+msgid "less_msg"
+msgstr ""
+
+#. Default: "Your status has been set successfully."
+msgid "lbl_smessage_success"
+msgstr ""
+
+#. Default: "Unable to set your status.Please try again later."
+msgid "lbl_smessage_error"
+msgstr ""
+
+#. Default: "New discussion added. Click %link to view it."
+msgid "discussion_add_success"
+msgstr ""
+
+#. Default: "Please enter discussion text."
+msgid "no_discussion_message"
+msgstr ""
+
+#. Default: "Please enter discussion title."
+msgid "no_discussion_title_message"
+msgstr ""
+
+#. Default: "Unable to add discussion. Please try again later."
+msgid "discussion_add_error"
+msgstr ""
+
+#. Default: "Unable to set your rating. Please try again later."
+msgid "rating_error"
+msgstr ""
+
+#. Default: "Your form has not been saved. All changes you have made will be lost."
+msgid "text_form_modified_message"
+msgstr ""
+
+#. Default: "You already clicked the submit button. Do you really want to submit this form again?"
+msgid "text_form_resubmit_message"
+msgstr ""
+
+#. Default: "Click to select date range"
+msgid "lbl_daterange"
+msgstr ""
+
+#. Default: "Users"
+msgid "Users"
+msgstr ""
+
+#. Default: "Readers"
+msgid "Readers"
+msgstr ""
+
+#. Default: "Editors"
+msgid "Editors"
+msgstr ""
+
+#. Default: "Transform"
+msgid "Transform"
+msgstr ""
+
+#. Default: "Links Bookmarklet"
+msgid "Links Bookmarklet"
+msgstr ""
+
+#. Default: "Syndication feeds"
+msgid "Syndication feeds"
+msgstr ""
+
+#. Default: "Subscribe to %title Events Calendar"
+msgid "Subscribe to %title Events Calendar"
+msgstr ""
+
+#. Default: "Log out"
+msgid "Log out"
+msgstr ""
+
+#. Default: "A blog post that will appear in blog views"
+msgid "A blog post that will appear in blog views"
+msgstr ""
+
+#. Default: "ago"
+msgid "ago"
+msgstr ""
+
+#. Default: "from now"
+msgid "from now"
+msgstr ""
+
+#. Default: "less than a minute"
+msgid "less than a minute"
+msgstr ""
+
+#. Default: "about a minute"
+msgid "about a minute"
+msgstr ""
+
+#. Default: "%d minutes"
+msgid "%d minutes"
+msgstr ""
+
+#. Default: "about an hour"
+msgid "about an hour"
+msgstr ""
+
+#. Default: "about %d hours"
+msgid "about %d hours"
+msgstr ""
+
+#. Default: "a day"
+msgid "a day"
+msgstr ""
+
+#. Default: "%d days"
+msgid "%d days"
+msgstr ""
+
+#. Default: "about a month"
+msgid "about a month"
+msgstr ""
+
+#. Default: "%d months"
+msgid "%d months"
+msgstr ""
+
+#. Default: "about a year"
+msgid "about a year"
+msgstr ""
+
+#. Default: "%d years"
+msgid "%d years"
+msgstr ""
+
+#. Default: "Jan"
+msgid "Jan"
+msgstr ""
+
+#. Default: "Feb"
+msgid "Feb"
+msgstr ""
+
+#. Default: "Mar"
+msgid "Mar"
+msgstr ""
+
+#. Default: "Apr"
+msgid "Apr"
+msgstr ""
+
+#. Default: "Jun"
+msgid "Jun"
+msgstr ""
+
+#. Default: "Jul"
+msgid "Jul"
+msgstr ""
+
+#. Default: "Aug"
+msgid "Aug"
+msgstr ""
+
+#. Default: "Sep"
+msgid "Sep"
+msgstr ""
+
+#. Default: "Oct"
+msgid "Oct"
+msgstr ""
+
+#. Default: "Nov"
+msgid "Nov"
+msgstr ""
+
+#. Default: "Dec"
+msgid "Dec"
+msgstr ""
+
+#. Default: "am"
+msgid "am"
+msgstr ""
+
+#. Default: "pm"
+msgid "pm"
+msgstr ""
+
+#. Default: "Audio Library"
+msgid "Audio Library"
+msgstr ""
+
+#. Default: "Bookmark Directory"
+msgid "Bookmark Directory"
+msgstr ""
+
+#. Default: "Discussions Board"
+msgid "Discussions Board"
+msgstr ""
+
+#. Default: "Event Calendar"
+msgid "Event Calendar"
+msgstr ""
+
+#. Default: "File Repository"
+msgid "File Repository"
+msgstr ""
+
+#. Default: "Image Gallery"
+msgid "Image Gallery"
+msgstr ""
+
+#. Default: "Video Library"
+msgid "Video Library"
+msgstr ""
+
+#. Default: "Workflow policy"
+msgid "Workflow policy"
+msgstr ""
+
+#. Default: "Anonymous"
+msgid "Anonymous"
+msgstr ""
+
+#. Default: "Authenticated"
+msgid "Authenticated"
+msgstr ""
+
+#. Default: "Manager"
+msgid "Manager"
+msgstr ""
+
+#. Default: "Member"
+msgid "Member"
+msgstr ""
+
+#. Default: "Owner"
+msgid "Owner"
+msgstr ""
+
+#. Default: "Reviewer"
+msgid "Reviewer"
+msgstr ""
+
+#. Default: "Reader"
+msgid "Reader"
+msgstr ""
+
+#. Default: "Editor"
+msgid "Editor"
+msgstr ""
+
+#. Default: "Contributor"
+msgid "Contributor"
+msgstr ""
+

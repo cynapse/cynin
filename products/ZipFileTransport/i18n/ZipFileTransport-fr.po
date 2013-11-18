@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZipFile Transport Tool\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: 2007-03-20 10:26+0100\n"
+"Last-Translator: olivier Turlier <o.turlier@gmail.com>\n"
+"Language-Team: FRENCH <o.turlier@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: fr\n"
+"Language-Name: French\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: ZipFileTransport\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#. Default: "Import"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "Import"
+msgstr "Importez"
+
+#. Default: "This form will import content from files contained in a.zip file, and will either create new objects, or overwrite objects that contain the same original filename and path. You must have editing rights for objects in order for them to be updated."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "description_import_file"
+msgstr "Ce formulaire importera du contenu archivé dans des fichiers *.zip, et soit créera des nouveaux objets, soit écrasera les objets portant les mêmes nom et chemin. Vous devez avoir des droits d'édition sur les objets pour qu'ils soient 'uploadés'."
+
+#. Default: "Add the relevant details of the file to be added in the form below, select the file with the 'Browse' button, and press 'Import'."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "description_import_file1"
+msgstr "Ajoutez les détails significatifs du fichier à ajouter dans le formulaire ci-dessous, sélectionnez le fichier avec le bouton 'Parcourir', et pressez 'Importez'."
+
+#. Default: "Import Content"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "heading_ImportContent"
+msgstr "Importez le contenu"
+
+#. Default: "A description which will be given to each file in the ZIP Archive."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help__import_description"
+msgstr "Une description qui sera donnée à chaque fichier dans l'archive *.zip."
+
+#. Default: "Select the ZIP archive file to be uploaded by clicking the 'Browse' button."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help__zip_file"
+msgstr "Sélectionnez l'archive *.zip à 'uploader' en cliquant sur le bouton 'Parcourir'."
+
+#. Default: "Check this box to overwrite existing files with the same name."
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "help_overwrite"
+msgstr "Cochez cette case pour l'écrasement de fichiers existants portant le même nom."
+
+#. Default: "Zip File"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "label__zip_file"
+msgstr "Archive *.zip"
+
+#. Default: "Overwrite"
+#: ZipFileTransport/skins/ZipFileTransport/import_form.cpt
+msgid "label_overwrite"
+msgstr "Ecrasement"
+

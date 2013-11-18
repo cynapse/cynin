@@ -1,0 +1,16 @@
+# $Id$
+msgid ""
+msgstr ""
+"Last-Translator: Damien Baty <damien@remove.pilotsystems.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: en-au en-bz en-ca en-ie en-jm en-nz en-ph en-za en-tt en-gb en-us en-zw\n"
+
+msgid "cmfnotification_configlet_title"
+msgstr "Configuration of CMFNotification"

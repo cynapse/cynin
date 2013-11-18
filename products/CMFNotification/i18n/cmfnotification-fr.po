@@ -1,0 +1,63 @@
+# $Id$
+msgid ""
+msgstr ""
+"Last-Translator: Damien Baty <damien@remove.pilotsystems.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: fr\n"
+"Language-Name: French\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: cmfnotification\n"
+"X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
+
+# portlet_notification.pt
+# "Subscription"
+msgid "notification_portlet_header"
+msgstr "Abonnement e-mail"
+
+# portlet_notification.pt
+# "Subscribe"
+msgid "label_subscribe"
+msgstr "S'abonner"
+
+# portlet_notification.pt
+# "Unsubscribe"
+msgid "label_unsubscribe"
+msgstr "Se désabonner"
+
+# portlet_notification.pt
+# "You are subscribed to this item."
+msgid "subscribed"
+msgstr "Vous êtes abonné(e) à cet élément."
+
+# portlet_notification.pt
+# "You are indirectly subscribed to this item, because you are subscribed to one of its parent folder above."
+msgid "subscribed_above"
+msgstr "Vous êtes indirectement abonné(e) à un de cet élément, parce que vous êtes abonné(e) à un de ses dossiers parents."
+
+# portlet_notification.pt
+# "Subscribe to the folder above"
+msgid "label_subscribe_to_parent"
+msgstr "S'abonner au dossier parent"
+
+# portlet_notification.pt
+# "You have been subscribed to this item."
+msgid "success_subscribed"
+msgstr "Vous avez été abonné(e) à cet élément."
+
+# portlet_notification.pt
+# "You have been subscribed to the parent folder of this item."
+msgid "success_subscribed_parent"
+msgstr "Vous avez été abonné(e) au dossier parent de cet élément."
+
+# portlet_notification.pt
+# "You have been unsubscribed from this item."
+msgid "success_unsubscribed"
+msgstr "Vous avez été désabonné(e) de cet élément."
+
+# portlet_notification.pt
+# "You have been unsubscribed from the first parent folder above."
+msgid "success_unsubscribed_above"
+msgstr "Vous avez été désabonné(e) du premier dossier parent de cet élément."

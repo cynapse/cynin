@@ -1,0 +1,62 @@
+# $Id$
+msgid ""
+msgstr ""
+"Last-Translator: Julio Monteiro <monteiro@incubadora.fapesp.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: pt-br\n"
+"Language-Name: Brazillian Portuguese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: cmfnotification\n"
+
+# portlet_notification.pt
+# "Subscription"
+msgid "notification_portlet_header"
+msgstr "Assinatura"
+
+# portlet_notification.pt
+# "Subscribe"
+msgid "label_subscribe"
+msgstr "Assinar"
+
+# portlet_notification.pt
+# "Unsubscribe"
+msgid "label_unsubscribe"
+msgstr "Cancelar assinatura"
+
+# portlet_notification.pt
+# "You are subscribed to this item."
+msgid "subscribed"
+msgstr "Você está inscrito para receber notificações sobre esse item."
+
+# portlet_notification.pt
+# "You are indirectly subscribed to this item, because you are subscribed to one of its parent folder above."
+msgid "subscribed_above"
+msgstr "Você está indiretamente inscrito para receber notificações sobre esse item, por assinar uma das pastas acima."
+
+# portlet_notification.pt
+# "Subscribe to the folder above"
+msgid "label_subscribe_to_parent"
+msgstr "Assinar a pasta acima"
+
+# portlet_notification.pt
+# "You have been subscribed to this item."
+msgid "success_subscribed"
+msgstr "Você foi inscrito para receber esse ítem."
+
+# portlet_notification.pt
+# "You have been subscribed to the parent folder of this item."
+msgid "success_subscribed_parent"
+msgstr "Você foi inscrito na pasta acima desse item."
+
+# portlet_notification.pt
+# "You have been unsubscribed from this item."
+msgid "success_unsubscribed"
+msgstr "Você deixou de assinar esse item."
+
+# portlet_notification.pt
+# "You have been unsubscribed from the first parent folder above."
+msgid "success_unsubscribed_above"
+msgstr "Você deixou de assinar a pasta acima desse item."

@@ -1,0 +1,58 @@
+<tal:definemacro metal:define-macro="help_block">
+    <div class="helpblockcontainer portletWrapper" i18n:domain="cynin">
+        <div class="helpblockrow helpmenurow">
+            <div>
+                <ul class="help_menu" style="display:none">
+                    <li class="smallwhitebutton">
+                            <img tal:attributes="src string:${portal_url}/icon-help.png" />
+                            <tal:translate i18n:translate="link_cynin_help">cyn.in Help</tal:translate>
+                            <span class="arrowDownAlternative"> &#9660;</span>
+                        <ul>
+                            <li>
+                                <a href="#" tal:attributes="href string:${portal_url}/about-cynin">
+                                    <img border="0" tal:attributes="src string:${portal_url}/icon-rosette.png" />
+                                    <tal:translate i18n:translate="link_about_cynin">Cyn.in license</tal:translate>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.cynapse.com/support">
+                                    <img border="0" tal:attributes="src string:${portal_url}/icon-wand.png" />
+                                    <tal:translate i18n:translate="link_enterprise_support">Enterprise Support</tal:translate>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browser-support" class="nyroTitled nofollow nyroModalWide">
+                                    <img border="0" tal:attributes="src string:${portal_url}/icon-tick.png" />
+                                    <tal:translate i18n:translate="link_supported_browsers">Supported Browsers</tal:translate>
+                                </a>
+                            </li>
+                            <li>
+                                <img border="0" tal:attributes="src string:${portal_url}/icon-world.png" />
+                                <tal:translate i18n:translate="link_web_links">Web Links</tal:translate>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.cynapse.com/products/cynin" target="_blank">
+                                            <img border="0" tal:attributes="src string:${portal_url}/cynin_icon.png">
+                                            <tal:translate i18n:translate="link_cynin_home_page">cyn.in Homepage</tal:translate>
+                                        </a>
+                                    </li>
+                                    <li><a  href="http://www.cynapse.com" target="_blank">
+                                            <img border="0" tal:attributes="src string:${portal_url}/icon-emoticon_smile.png">
+                                            <tal:translate i18n:translate="link_cynapse_home_page">Cynapse Homepage</tal:translate>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a  href="http://community.cynapse.com" target="_blank">
+                                            <img border="0" tal:attributes="src string:${portal_url}/icon-cog.png">
+                                            <tal:translate i18n:translate="link_open_source_community">Cynapse Community</tal:translate>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</tal:definemacro>
